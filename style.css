@@ -1,10 +1,12 @@
 * {
 	margin: 0;
 	padding: 0;
-    background: ghostwhite;
+}
+html {
+    background: url(Media/fabricbackground.jpg);
 }
 body {
-    font: 100% georgia, sans-serif;
+    font: 100% "Myriad Pro";
     line-height: 2;
     color: black;
     margin: 0;
@@ -15,7 +17,7 @@ p {
     text-align: justify;
 }
 h1 {
-    font: 300% georgia;
+    font-family: 300% "Myriad Pro";
     margin-bottom: 1em;
     text-align: center;
     padding: 35px;
@@ -75,7 +77,4 @@ p.text30 {
 }
 .content-wrapper {
     margin-left: 300px;
-}
-.test {
-    background-color: #f1c40f;
 }
