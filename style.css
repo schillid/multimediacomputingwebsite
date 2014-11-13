@@ -39,7 +39,7 @@ nav {
     background-color: rgba(241, 196, 15, 0.5);
     padding-left: 20px;
     padding-right: 10px;
-    margin-top: 4px;
+    margin-top: 5px;
     position: fixed;
     float: right;
 }
@@ -97,10 +97,14 @@ p.text30 {
 span.subaru {
     font-weight: 600;
     background-color: rgba(241, 196, 15, 0.5);
-    padding: 15px;
-    border: 2px solid linen;
+    padding: 13px 15px 15px 15px;
+    border: 2px solid rgba(135, 206, 235, 0.7);
     border-radius: 3px;
 }
 a:link {
+    color: rgba(40, 40, 40, 1.0);
     font-weight: 400;
+}
+a:visited {
+    color: rgba(40, 40, 40, 1.0);
 }
