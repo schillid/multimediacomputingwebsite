@@ -18,10 +18,10 @@ p {
     line-height: 150%;
 }
 h1 {
-    width: 74%;
+    width: 68%;
     font-family: 300% "Myriad Pro";
     font-weight: 600;
-    margin-left: 11%;
+    margin-left: 14%;
     margin-bottom: .9em;
     text-align: center;
     padding: 2%;
@@ -92,7 +92,7 @@ p.text30 {
 }
 .content-wrapper {
     margin-top: 30px;
-    margin-left: 300px;
+    margin-left: 16.5%;
 }
 span.subaru {
     font-weight: 600;
