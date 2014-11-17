@@ -18,65 +18,54 @@ p {
     line-height: 150%;
 }
 h1 {
-    width: 68%;
     font-family: 300% "Myriad Pro";
     font-weight: 600;
-    margin-left: 14%;
     margin-bottom: .9em;
     text-align: center;
     padding: 2%;
-    border: 2px solid rgba(135, 206, 235, 0.7);
-    border-radius: 15px;
+    border-radius: 5px;
     background-color: rgba(241, 196, 15, 0.5);
 }
 h2 {
-    text-decoration: underline;
+    text-decoration: none;
     margin-bottom:1em;
-}
-nav {
-    border: 2px solid rgba(135, 206, 235, 0.7);
-    border-radius: 5px;
-    background-color: rgba(241, 196, 15, 0.5);
-    padding-left: 20px;
-    padding-right: 10px;
-    margin-top: 5px;
-    position: fixed;
-    float: right;
 }
 .navcenter {
     text-align: center;
     margin: 20px;
 }
 .navbar {
-    list-style-type: none;
     display: inline;
+    list-style-type: none;
     text-align: center;
     padding: 10px 15px 10px 15px;
     background-color: rgba(241, 196, 15, 0.5);
-    border: 2px solid rgba(135, 206, 235, 0.7);
     border-radius: 5px;
 }
+.nodeco {
+    text-decoration: none;
+}
 .page-wrapper {
-    padding: 80px 80px 80px 80px;
+    padding: 4% 15% 4% 15%;
     margin: 0;
     position: relative;
 }
 .frame {
     background: transparent;
     padding: 12px;
-    border: 1px solid #f39c12;
+    border: 1px solid rgba(241, 196, 15, 0.5);
     border-radius: 2px;
 }
 .frame_float {
     background: transparent;
     padding: 12px;
-    border: 1px solid #f39c12;
+    border: 1px solid rgba(241, 196, 15, 0.5);
     border-radius: 2px;
     float: left;
     margin-right: 20px;
 }
 p.text30 {
-    width: 45%;
+    width: 47%;
     margin-bottom: .8em;
     background-color: rgba(241, 196, 15, 0.5);
     border: 2px solid linen;
@@ -92,13 +81,14 @@ p.text30 {
 }
 .content-wrapper {
     margin-top: 30px;
-    margin-left: 16.5%;
+    background: rgba(241, 196, 15, 0.1);
+    padding: 3%;
+    border-radius: 4px;
 }
 span.subaru {
     font-weight: 600;
     background-color: rgba(241, 196, 15, 0.5);
     padding: 13px 15px 15px 15px;
-    border: 2px solid rgba(135, 206, 235, 0.7);
     border-radius: 3px;
 }
 a:link {
