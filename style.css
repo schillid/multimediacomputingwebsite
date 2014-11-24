@@ -3,7 +3,9 @@
 	padding: 0;
 }
 html {
-    background: url(Media/background.png);
+    background: url(Media/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 body {
     font: 100% "Myriad Pro";
@@ -23,8 +25,8 @@ h1 {
     margin-bottom: .9em;
     text-align: center;
     padding: 2%;
-    border-radius: 5px;
-    background-color: rgba(241, 196, 15, 0.5);
+    border-radius: 3px;
+    background-color: rgba(241, 196, 15, 0.8);
 }
 h2 {
     text-decoration: none;
@@ -32,15 +34,15 @@ h2 {
 }
 .navcenter {
     text-align: center;
-    margin: 20px;
+    margin: 20px 20px 0px 20px;
 }
 .navbar {
     display: inline;
     list-style-type: none;
     text-align: center;
     padding: 10px 15px 10px 15px;
-    background-color: rgba(241, 196, 15, 0.5);
-    border-radius: 5px;
+    background-color: rgba(241, 196, 15, 0.8);
+    border-radius: 3px;
 }
 .nodeco {
     text-decoration: none;
@@ -53,43 +55,45 @@ h2 {
 .frame {
     background: transparent;
     padding: 12px;
-    border: 1px solid rgba(241, 196, 15, 0.5);
+    border: 1px solid rgba(241, 196, 15, 0.8);
     border-radius: 2px;
 }
-.frame_float {
-    background: transparent;
-    padding: 12px;
-    border: 1px solid rgba(241, 196, 15, 0.5);
+p.textbox {
+    width: 95%;
+    background-color: rgba(241, 196, 15, 0.8);
+    border: 1px solid white;
     border-radius: 2px;
-    float: left;
-    margin-right: 20px;
-}
-p.text30 {
-    width: 47%;
-    margin-bottom: .8em;
-    background-color: rgba(241, 196, 15, 0.5);
-    border: 2px solid linen;
-    border-radius: 3px;
     padding: 5px 10px 5px 10px;
+    height: 10%;
 }
-.post {
+.post_left {
+    float: left;
     width: 50%;
-    margin-bottom: 24px;
+    margin-bottom: 1%;
 }
-.post2 {
-    margin-bottom: 24px;
+.post_right {
+    float: right;
+    width: 50%;
+    margin-bottom: 1%;
 }
 .content-wrapper {
-    margin-top: 30px;
-    background: rgba(241, 196, 15, 0.1);
+    background: rgba(241, 196, 15, 0);
     padding: 3%;
-    border-radius: 4px;
 }
-span.subaru {
+.subaru_topic {
+    clear: both;
+}
+span.h2_title {
     font-weight: 600;
-    background-color: rgba(241, 196, 15, 0.5);
+    background-color: rgba(241, 196, 15, 0.8);
     padding: 13px 15px 15px 15px;
-    border-radius: 3px;
+    border-radius: 2px;
+    clear: both;
+}
+hr.clear {
+    clear:both;
+    border-color: rgba(241, 196, 15, 0.8);
+    margin: 0% 0% 1.5% 0%;
 }
 a:link {
     color: rgba(40, 40, 40, 1.0);
