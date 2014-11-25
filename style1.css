@@ -15,6 +15,10 @@ display: block;
 -webkit-margin-start: 0;
 -webkit-margin-end: 0;
 }
+img {
+    width: 100%;
+    height: auto;
+}
 .bss-slides{
   position: relative;
   display: block;
