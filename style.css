@@ -2,13 +2,17 @@
 	margin: 0;
 	padding: 0;
 }
+@font-face {
+font-family: 'Myriad Pro Regular';
+src: url(Media/MyriadPro-Regular.otf);
+}
 html {
     background: url(Media/background.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 body {
-    font: 100% "Myriad Pro";
+    font: 100% "Myriad Pro Regular";
     line-height: 2;
     color: rgba(40, 40, 40, 1.0);
     margin: 0;
@@ -20,9 +24,9 @@ p {
     line-height: 150%;
 }
 h1 {
-    font-family: 300% "Myriad Pro";
+    font-family: 300% "Myriad Pro Regular";
     font-weight: 600;
-    margin-bottom: .9em;
+    margin-bottom: 3%;
     text-align: center;
     padding: 2%;
     border-radius: 3px;
@@ -59,13 +63,13 @@ h2 {
 }
 .frame {
     background: transparent;
-    padding: 12px;
+    padding: 1.5%;
     border: 1px solid rgba(240, 255, 255, 0.9);
     border-radius: 2px;
 }
 .frame_25 {
     background: transparent;
-    padding: 5px;
+    padding: 1.5%;
     border: 1px solid rgba(240, 255, 255, 0.9);
     border-radius: 2px;
 }
@@ -74,16 +78,17 @@ p.textbox {
     background-color: rgba(240, 255, 255, 0.9);
     border: 1px solid white;
     border-radius: 2px;
-    padding: 5px 10px 5px 13px;
-    height: 10%;
+    padding: 1% 1.5% 1% 1.5%;
 }
 p.text {
     width: 97.8%;
     background-color: rgba(240, 255, 255, 0.9);
     border: 1px solid white;
     border-radius: 2px;
-    padding: 5px 10px 5px 13px;
-    height: 10%;
+    padding: 1% 2% 1% 2%;
+}
+.horizontalduo{
+    clear:both;
 }
 .post_modelling {
     float: left;
@@ -101,7 +106,7 @@ p.text {
     padding-bottom: 0;
 }
 .topic {
-    clear: both;
+    clear: none;
 }
 .footer {
     bottom: 0;
